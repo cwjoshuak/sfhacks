@@ -31,7 +31,7 @@ public class HelloAppEngine extends HttpServlet {
 	    String parameterLocation = request.getParameter("city");
 	    
 	    //Initialize GeoApiContext.Builder
-	    GeoApiContext.Builder builder = new GeoApiContext.Builder().apiKey("AIzaSyCzHGKHl75gHvXEtXiGckmonfP0-00Iwow").queryRateLimit(500); //new Builder();
+	    GeoApiContext.Builder builder = new GeoApiContext.Builder().apiKey("AIzaSyCzHGKHl75gHvXEtXiGckmonfP0-00Iwow").queryRateLimit(3); //new Builder();
 	    //builder.apiKey("AIzaSyCzHGKHl75gHvXEtXiGckmonfP0-00Iwow");
 	    GeoApiContext gac = builder.build();
 	   

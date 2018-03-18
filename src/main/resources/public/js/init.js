@@ -14,8 +14,6 @@
 
     $('input.autocomplete').autocomplete({
     data: {
-      "Apple": null,
-      "Microsoft": null,
     },
     limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
     onAutocomplete: function(val) {
@@ -23,7 +21,10 @@
     },
     minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
     });
-    
-  }); // end of document ready
 
+    $('#autocomplete').on('input', function() {
+      $('#start-button').prop('href', "hello?city="+this.value);
+    });
+
+  }); // end of document ready
 })(jQuery); // end of jQuery name space
