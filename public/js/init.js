@@ -22,19 +22,9 @@
     minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
     });
 
-    $(document).ready(function(){
-    $(".btn-large waves-effect waves-light light-blue").click(function(){
-        // Get value from input element on the page
-        var cityName = $("#autocomplete").val();
-
-        // Send the input data to the server using get
-        $.get("main.java", {city : cityName} , function(data){
-            // Display the returned data in browser
-            $("#result").html(data);
-        });
+    $('#autocomplete').on('input', function() {
+      $('#start-button').prop('href', "hello/city=$"+this.value);
     });
-});
-
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
