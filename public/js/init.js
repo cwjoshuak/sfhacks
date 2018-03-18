@@ -14,8 +14,6 @@
 
     $('input.autocomplete').autocomplete({
     data: {
-      "Apple": null,
-      "Microsoft": null,
     },
     limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
     onAutocomplete: function(val) {
@@ -37,10 +35,8 @@
     });
 });
 
+
   }); // end of document ready
-
-});
-
 })(jQuery); // end of jQuery name space
 
 var placeSearch, autocomplete;
