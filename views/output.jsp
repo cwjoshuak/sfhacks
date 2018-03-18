@@ -36,7 +36,7 @@
             <br><br><br>
             <h5 class="center">Hotel #1</h5>
             <br><br><br>
-            <h5 class="center">A nice and friendly hotel located in the middle of the suburbs where dogs roam around and people exercise.</h5>
+            <h5 class="center light">A nice and friendly hotel located in the middle of the suburbs where dogs roam around and people exercise.</h5>
             <br><br><br>
           </div>
         </div>
@@ -47,7 +47,7 @@
             <br><br><br>
             <h5 class="center">Hotel #2</h5>
             <br><br><br>
-            <h5 class="center">A nice and friendly hotel located in the middle of the suburbs where dogs roam around and people exercise.</h5>
+            <h5 class="center light">A nice and friendly hotel located in the middle of the suburbs where dogs roam around and people exercise.</h5>
             <br><br><br>
           </div>
         </div>
@@ -58,7 +58,7 @@
             <br><br><br>
             <h5 class="center">Hotel #3</h5>
             <br><br><br>
-            <h5 class="center">A nice and friendly hotel located in the middle of the suburbs where dogs roam around and people exercise.</h5>
+            <h5 class="center light">A nice and friendly hotel located in the middle of the suburbs where dogs roam around and people exercise.</h5>
             <br><br><br><br><br><br>
           </div>
         </div>
@@ -102,12 +102,5 @@
     </div>
   </footer>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/calculate.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzHGKHl75gHvXEtXiGckmonfP0-00Iwow&libraries=places&callback=initAutocomplete"
-      async defer></script>
   </body>
 </html>
